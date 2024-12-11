@@ -1,0 +1,26 @@
+default:
+    autoload:
+        '': %paths.base%/tests/features/bootstrap
+    suites:
+        domain_features:
+            paths:    [ %paths.base%/tests/features ]
+            contexts: [ DomainContext ]
+            filters:
+                tags: ~@web&&~@javascript
+        web_features:
+            paths:    [ %paths.base%/tests/features ]
+            contexts: [ WebContext ]
+            filters:
+                tags: @web
+        javascript_features:
+            paths:    [ %paths.base%/tests/features ]
+            contexts: [ JavascriptContext ]
+            filters:
+                tags: @javascript
+    extensions:
+      Behat\MinkExtension:
+        base_url:  'http://www.issuelab.dev'
+        javascript_session: selenium2
+        show_cmd: '"/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app/Contents/MacOS/Google Chrome" %s'
+        selenium2:
+            wd_host: "http://www.issuelab.dev:8643/wd/hub"

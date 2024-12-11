@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "dependencies": {
+    "URIjs": "^1.16.0",
+    "bower": "^1.4.1",
+    "browserify": "^10.2.4",
+    "browserify-shim": "^3.8.9",
+    "gulp": "^3.9.0",
+    "gulp-behat": "^0.4.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-modernizr": "0.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-shell": "^0.4.3",
+    "gulp-util": "^3.0.6",
+    "html5-history-api": "^4.2.2",
+    "install": "^0.1.8",
+    "jquery.mousewheel": "^3.1.9",
+    "laravel-elixir": "^2.0.0",
+    "laravel-elixir-behat": "^0.1.0",
+    "laravel-elixir-browser-sync": "^0.1.7",
+    "laravel-elixir-sass-compass": "^0.3.0",
+    "lodash": "^3.10.0",
+    "modernizr": "^3.0.0-alpha.4",
+    "moment": "^2.10.6",
+    "npm": "^2.14.0",
+    "vue": "^0.12.16"
+  },
+  "browser": {
+    "bootstrap": "./resources/assets/vendor/bootstrap-sass-official/assets/javascripts/bootstrap.custom.js",
+    "select2": "./resources/assets/vendor/select2/dist/js/select2.js",
+    "repeater": "./resources/assets/vendor/jquery.repeater/jquery.repeater.js",
+    "typeahead": "./resources/assets/vendor/typeahead.js/dist/typeahead.jquery.js",
+    "bloodhound": "./resources/assets/vendor/typeahead.js/dist/bloodhound.js",
+    "datetimepicker": "./resources/assets/vendor/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js"
+  },
+  "browserify": {
+    "transform": "browserify-shim"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "modernizr": "global:Modernizr"
+  }
+}

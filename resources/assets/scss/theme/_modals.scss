@@ -1,0 +1,18 @@
+// Vue.js modal
+.modal-transition {
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.overlay {
+    .modal-backdrop {
+        background-color: $body-bg;
+        // Fade for backdrop
+        &.in { @include opacity(1); }
+    }
+
+    .modal-content {
+        border: none;
+        box-shadow: none;
+    }
+}

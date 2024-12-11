@@ -1,0 +1,34 @@
+.twitter-typeahead {
+    display: block !important;
+
+    .tt-menu {
+        @extend .dropdown-menu;
+
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        color: $text-color;
+        margin: 0;
+        padding: 0;
+        top: $input-height-base !important;
+        width: 100%;
+    }
+
+    .tt-suggestion {
+        padding: $padding-small-vertical $padding-base-horizontal;
+    }
+
+    .tt-cursor {
+        color: $dropdown-link-hover-color;
+        background-color: $dropdown-link-hover-bg;
+    }
+
+    // Because the typeahead input is on top of the regular input, don't zero out the border radius of the typeahead input
+    .input-group .form-control:not(:first-child):not(:last-child) {
+        border-radius: 4px 0 0 4px;
+    }
+
+    .form-control.with-suggestions {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+}

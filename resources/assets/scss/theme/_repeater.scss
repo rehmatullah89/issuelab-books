@@ -1,0 +1,19 @@
+.repeater {
+
+    [data-repeater-list] .list-group-item {
+        padding-right: 45px;
+    }
+
+    [data-repeater-item] {
+        position: relative;
+
+        button {
+            @include scut-center-transform(y);
+            right: 15px;
+
+            line-height: 1;
+            font-size: $font-size-xsmall;
+            padding: 5px;
+        }
+    }
+}

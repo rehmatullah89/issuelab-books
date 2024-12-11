@@ -1,0 +1,18 @@
+.form-control-feedback {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.input-group .form-control-feedback:nth-last-child(n+2) {
+    right: 38px;
+}
+
+.input-group-addon .btn {
+    background: none;
+    border: none;
+    line-height: inherit;
+}
+
+.form-inline .control-label {
+    margin-right: 5px;
+}

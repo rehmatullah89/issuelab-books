@@ -1,0 +1,38 @@
+<?php
+
+return [
+
+    'after'                             => 'After',
+    'apply'                             => 'Apply',
+    'before'                            => 'Before',
+    'clear'                             => 'Clear',
+    'author_placeholder'                => 'Select an author',
+    'author'                            => 'Author',
+    'funder_placeholder'                => 'Select a funder',
+    'funder'                            => 'Funder',
+    'publisher_placeholder'             => 'Select a publisher',
+    'publisher'                         => 'Publisher',
+    'copyright'                         => 'Copyright',
+    'doctypes'                          => 'Document Type',
+    'filter_to_see_related'             => 'Filter your search to see related results',
+    'geography'                         => 'Geography',
+    'loading'                           => 'Loading search results',
+    'more'                              => 'More',
+    'no_results'                        => 'No results found',
+    'overview'                          => 'Overview',
+    'pubdate'                           => 'Publication Date',
+    'results_found'                     => 'results found',
+    'related_results'                   => 'Related Results',
+    'related_results_found'             => 'Related Results Found',
+    'related_authors_found'             => 'Related Authors Found',
+    'related_special_collections_found' => 'Related Special Collections Found',
+    'related_publishers_found'          => 'Related Publishers Found',
+    'related_funders_found'             => 'Related Funders Found',
+    'search'                            => 'Search',
+    'reset'                             => 'Reset',
+    'see_all'                           => 'See All',
+    'sort'                              => 'Sort By',
+    'special_collections'               => 'Special Collections',
+    'title_results'                     => 'Title Results',
+
+];
